@@ -11,11 +11,18 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+
+            colors: {
+                'myColors': {
+                    'color1': '#f00',
+                        'color2': '#0f0',
+                        'color3': '#00f',
+                        'color4': '#ff0',
+                },
             },
         },
     },
+
 
     plugins: [forms],
 };
